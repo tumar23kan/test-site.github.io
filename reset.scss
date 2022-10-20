@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap');
+*{
+  padding: 0 ;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}@mixin btn{
+  padding: 0.8rem 1.6rem;
+  background: blue;
+  color: #eeeeee;
+  border-radius: 1.5rem;
+  border: 1px solid #eeeeee;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.4s;
+  cursor:  pointer;
+  &:hover{
+    color: #eeeeee;
+    background: #e5a959;/*transperent празрачный свет кылса да болот*/
+  }
+}
+@mixin btn2{
+  padding: 0.8rem 1.6rem; ;
+  border-radius: 30px;
+  border: none;
+  background: #e5a959;
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+}
+
+
+@mixin btn6{
+  padding: 0.8rem 12rem;
+  background: blue;
+  color: #eeeeee;
+  border-radius: 1.5rem;
+  border: 1px solid #eeeeee;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.4s;
+  cursor:  pointer;
+  &:hover{
+    color: #eeeeee;
+    background: #e5a959;/*transperent празрачный свет кылса да болот*/
+  }
+}
+@mixin btn7{
+  padding: 1.5rem;
+  background:2em#e7e7e747;
+  border-radius: 4rem;
+}
